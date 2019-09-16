@@ -10,7 +10,6 @@ header {
   position: relative;
   height: 100px;
 }
-
 .profilbilde {
   width: 100px;
   height: 100px;
@@ -18,6 +17,7 @@ header {
   position: absolute;
   top: 100%;
   transform: translate(20%, -50%);
+  border: solid white 4px;
 }
 h1.profilnavn {
   position: absolute;
@@ -70,8 +70,20 @@ h1.profilnavn {
   }
   .main {
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 130px;
   }
   .main section {
     height: 100px;
+  }
+  .profilbilde {
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid white 6px;
+  }
+  h1.profilnavn {
+    left: 50%;
+    transform: translate(-50%, 75px);
   }
 }
