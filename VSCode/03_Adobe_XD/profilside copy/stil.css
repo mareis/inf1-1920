@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap");
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  height: 150px;
+  background-image: url(bilder/Blomster.jpeg);
+  background-size: cover;
+  background-position-y: -50px;
+  position: relative;
+}
+.profilbilde {
+  width: 100px;
+  height: 100px;
+  background-image: url(bilder/profilbilde.jpg);
+  background-size: 200%;
+  background-position: -30px -10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  border: 4px solid white;
+}
+.profilnavn {
+  width: 300px;
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  color: #444;
+}
+.main {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+.kort {
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+.kort img {
+  width: 100%;
+}
+.kort h3 {
+  position: absolute;
+  color: white;
+  bottom: 2px;
+  left: 10px;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 414px) {
+  .main {
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+  .kort {
+    height: 100px;
+  }
+}

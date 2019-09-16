@@ -1,0 +1,14 @@
+body {
+  background-color: seagreen;
+}
+h1 {
+  color: seashell;
+}
+h2 {
+  color: royalblue;
+}
+
+p {
+  color: goldenrod;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

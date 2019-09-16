@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hovedpakker {
+  background-color: goldenrod;
+  max-width: 500px;
+  height: 600px;
+  margin: auto;
+  padding: 0 5px;
+}
+
+.logo {
+  width: 100px;
+  background-color: aliceblue;
+}

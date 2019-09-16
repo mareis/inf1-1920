@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background-image: url(bilder/Blomster.jpeg);
+  background-size: cover;
+  background-position-y: 40%;
+  position: relative;
+  height: 100px;
+}
+
+.profilbilde {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 100%;
+  transform: translate(20%, -50%);
+}
+h1.profilnavn {
+  position: absolute;
+  top: 100%;
+  transform: translate(130px, -50%);
+  font-size: 24px;
+  color: rgb(49, 49, 49);
+}
+.main {
+  margin-top: 60px;
+  display: grid;
+  grid-auto-columns: 1fr;
+}
+.main img {
+  width: 100%;
+}
