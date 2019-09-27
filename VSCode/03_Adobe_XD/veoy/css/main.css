@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+.boks {
+  background-color: #00294e;
+  color: #fff;
+  padding: 5px;
+}
+.boks p {
+  margin: 0;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+.infobokser {
+  background-color: #23a2c3;
+  height: 100px;
+  text-align: center;
+}
+.infobokser img {
+  margin-top: 20px;
+}

@@ -27,9 +27,6 @@ aside img {
   bottom: 0;
   z-index: -1;
 }
-aside svg {
-  display: none;
-}
 main {
   background-color: #457b89;
   color: white;
@@ -60,6 +57,6 @@ main p {
     padding: 30px;
   }
   main p {
-    width: 350px;
+    max-width: 350px;
   }
 }
