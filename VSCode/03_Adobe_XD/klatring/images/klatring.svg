@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="54" viewBox="0 0 200 54">
+  <g id="Group_3" data-name="Group 3" transform="translate(-125 -18)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="25" cy="25" r="25" transform="translate(125 19)" fill="#d5e7f2"/>
+    <text id="klatring" transform="translate(184 59)" font-size="40" font-family="PTSerif-Regular, PT Serif"><tspan x="0" y="0">klatring</tspan></text>
+    <path id="Polygon_1" data-name="Polygon 1" d="M13,0,26,34H0Z" transform="translate(138 35)" fill="#732c02" opacity="0.795"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M14,0,28,33H0Z" transform="translate(147 29)" fill="#bf4905" opacity="0.804"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M11.5,0,23,30H0Z" transform="translate(152 42)" fill="#d88b47" opacity="0.805"/>
+  </g>
+</svg>
