@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="209" height="94" viewBox="0 0 209 94">
+  <g id="Group_1" data-name="Group 1" transform="translate(-536 -8)">
+    <text id="SYKKEL" transform="translate(536 93)" fill="#fff" font-size="44" font-family="HelveticaNeue-Light, Helvetica Neue" font-weight="300" letter-spacing="0.212em"><tspan x="0" y="0">SYKKEL</tspan></text>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(617 8)" fill="#273326" stroke="#fff" stroke-width="2">
+      <circle cx="23.5" cy="23.5" r="23.5" stroke="none"/>
+      <circle cx="23.5" cy="23.5" r="22.5" fill="none"/>
+    </g>
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(631 22)" fill="#7a5849" stroke="#fdfdfd" stroke-width="2">
+      <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+      <circle cx="9.5" cy="9.5" r="8.5" fill="none"/>
+    </g>
+  </g>
+</svg>

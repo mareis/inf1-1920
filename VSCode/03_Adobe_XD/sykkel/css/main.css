@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #273326;
+}
+header {
+  background-color: #151515;
+  text-align: center;
+}
+#logo {
+  padding: 10px;
+}
+#banner {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#bannerbilde {
+  width: 100%;
+  object-fit: cover;
+}
+#bannertekst {
+  background-color: #273326;
+  padding: 20px;
+  margin-top: 5px;
+}
+#bannertekst p {
+  font-size: 22px;
+  margin: 0;
+  color: #fff;
+  line-height: 30px;
+}
+main {
+  max-width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 40px 20px;
+  background-color: #7a5849;
+}
+.boks {
+  height: 150px;
+  background-color: #474240;
+  position: relative;
+}
+.boks p {
+  font-size: 50px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+@media only screen and (min-width: 780px) {
+  header {
+    padding-bottom: 10px;
+  }
+  #banner {
+    grid-template-columns: 3fr 2fr;
+  }
+  #bannerbilde {
+    height: 300px;
+  }
+  #bannertekst {
+    margin-top: 0;
+  }
+  #bannertekst p {
+    font-size: 22px;
+    margin: 0;
+    color: #fff;
+  }
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .boks p {
+    font-size: 70px;
+  }
+}
