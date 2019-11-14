@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+ul.flex-container {
+  width: 100%;
+  background-color: skyblue;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
