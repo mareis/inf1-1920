@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 ul.flex-container {
-  width: 100%;
+  margin: 0;
   background-color: skyblue;
   display: flex;
   list-style: none;
