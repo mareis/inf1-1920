@@ -8,3 +8,12 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.header {
+  height: 100px;
+  border-bottom: solid 1px;
+  background-color: darkcyan;
+}
+.header__content {
+  display: flex;
+}
