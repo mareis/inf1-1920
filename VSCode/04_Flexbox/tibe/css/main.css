@@ -1,4 +1,10 @@
 body {
   margin: 0;
-  background-color: red;
+}
+* {
+  box-sizing: border-box;
+}
+.content-width {
+  max-width: 1000px;
+  margin: 0 auto;
 }
