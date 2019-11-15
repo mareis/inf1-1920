@@ -16,4 +16,18 @@ body {
 }
 .header__content {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.header__logo {
+  height: 90%;
+}
+.header__menu {
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: 300ms;
+}
+.header__menu--active {
+  transform: translateY(0);
 }
