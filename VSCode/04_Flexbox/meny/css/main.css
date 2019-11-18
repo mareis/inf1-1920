@@ -3,17 +3,26 @@ body {
 }
 ul.meny {
   margin: 0;
+  padding: 0;
   background-color: skyblue;
   display: flex;
   list-style: none;
   justify-content: flex-end;
+  flex-direction: column;
 }
 ul.meny a {
   text-decoration: none;
   color: aliceblue;
   padding: 5px;
   display: block;
+  text-align: center;
 }
 ul.meny a:hover {
   background-color: cornflowerblue;
+}
+
+@media only screen and (min-width: 600px) {
+  ul.meny {
+    flex-direction: row;
+  }
 }
