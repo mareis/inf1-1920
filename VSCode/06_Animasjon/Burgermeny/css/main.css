@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 header {
-  border-bottom: 1px solid #b4bf5e;
+  border-bottom: 1px solid #80c0a2;
   position: relative;
   height: 60px;
 }
@@ -12,10 +12,16 @@ header {
   right: 18px;
   top: 18px;
 }
-
 #meny {
-  height: 400px;
-  background-color: #242614;
+  height: 230px;
+  background-color: #294035;
   display: none;
   margin-top: -4px;
+}
+
+main {
+  background-color: aliceblue;
+}
+#bilde {
+  width: 100%;
 }
