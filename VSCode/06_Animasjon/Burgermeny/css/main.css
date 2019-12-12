@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+header {
+  border-bottom: 1px solid #b4bf5e;
+  position: relative;
+  height: 60px;
+}
+
+#burger_svg {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}
+
+#meny {
+  height: 400px;
+  background-color: #242614;
+  display: none;
+  margin-top: -4px;
+}
