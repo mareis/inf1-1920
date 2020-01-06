@@ -1,6 +1,10 @@
 body {
   margin: 0;
+  font-family: "Fira Sans", sans-serif;
 }
+
+/*--------- HEADER ------------*/
+
 header {
   border-bottom: 1px solid #80c0a2;
   position: relative;
@@ -13,15 +17,51 @@ header {
   top: 18px;
 }
 #meny {
-  height: 230px;
   background-color: #294035;
   display: none;
   margin-top: -4px;
 }
 
+/*--------- MAIN ------------*/
+
 main {
   background-color: aliceblue;
 }
+
 #bilde {
   width: 100%;
 }
+
+/*   Meny  
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav li {
+  flex: 1 1 100%;
+}
+nav a {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding: 20px 5px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #194035;
+}
+
+@media only screen and (min-width: 600px) {
+  #meny {
+    display: block;
+  }
+}
+*/
