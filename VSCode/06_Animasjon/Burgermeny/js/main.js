@@ -3,11 +3,14 @@ let meny_El = document.querySelector("#meny");
 
 gsap.from("#logo", { x: -100, duration: 0.5 });
 gsap.from("#burger_svg", { x: 100, duration: 0.5 });
-gsap.from("main", { opacity: 0, duration: 1 });
 
 function reset() {
-  meny_El.style.display = "none";
-  gsap.set("#meny", { opacity: 0.9, x: 0 });
+  if (window.innerWidth <= 600) {
+    meny_El.style.display = "none";
+    gsap.set("#meny", { opacity: 0.9, x: 0 });
+  } else {
+    meny_El.style.display = "block";
+  }
 }
 
 reset();

@@ -18,7 +18,7 @@ header {
 }
 #meny {
   background-color: #294035;
-  display: none;
+  /*display: none;*/
   margin-top: -4px;
 }
 
@@ -64,11 +64,20 @@ main {
   #meny ul {
     flex-wrap: nowrap;
     justify-content: flex-end;
+    padding-right: 20px;
   }
   #meny li {
     flex: none;
   }
   #meny a {
     padding: 10px 20px;
+  }
+  #meny a:hover {
+    background-color: #294035;
+    text-decoration: underline;
+  }
+
+  #burger_svg {
+    display: none;
   }
 }
