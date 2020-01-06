@@ -63,5 +63,12 @@ main {
   /*--------- HEADER ------------*/
   #meny ul {
     flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+  #meny li {
+    flex: none;
+  }
+  #meny a {
+    padding: 10px 20px;
   }
 }
