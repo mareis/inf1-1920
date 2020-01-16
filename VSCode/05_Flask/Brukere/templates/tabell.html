@@ -1,0 +1,18 @@
+{% extends "main.html" %} {% block content %}
+<table>
+  <thead>
+    <td>ID</td>
+    <td>Navn</td>
+    <td>Sted</td>
+  </thead>
+  <tbody>
+    {% for bruker in brukere %}
+    <tr>
+      <td>{{bruker.id}}</td>
+      <td>{{bruker.navn}}</td>
+      <td>{{bruker.sted}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

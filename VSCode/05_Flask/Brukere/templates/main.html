@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/main.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Bruker</h1>
+        <strong>
+          <nav>
+            <ul class="menu">
+              <li><a href="{{ url_for('hjem') }}">Hjem</a></li>
+              <li><a href="{{ url_for('tabell') }}">Brukere</a></li>
+              <li><a href="{{ url_for('grid') }}">Brukere 2</a></li>
+            </ul>
+          </nav>
+        </strong>
+      </div>
+    </header>
+
+    <div class="container">
+      {% block content %} {% endblock %}
+    </div>
+  </body>
+</html>
