@@ -1,0 +1,13 @@
+{% extends "main.html" %} {% block content %}
+
+<div class="row">
+  {% for bruker in brukere %}
+  <div class="col s12 m6 l4 13">
+    <div class="card-panel hoverable ">
+      <h3>{{ bruker.navn }}</h3>
+      <p>{{ bruker.sted }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
