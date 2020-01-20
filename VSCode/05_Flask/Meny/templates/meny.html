@@ -1,0 +1,13 @@
+{% extends "main.html" %} {% block content %}
+
+<div class="row">
+  {% for m in meny %}
+  <div class="col s12 m6 l4 13">
+    <div class="card-panel hoverable ">
+      <h3>{{ m.rett }}</h3>
+      <p>{{ m.pris }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
