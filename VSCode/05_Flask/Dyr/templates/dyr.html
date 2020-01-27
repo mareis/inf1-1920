@@ -1,0 +1,20 @@
+{% extends "layout.html" %} {% block content %}
+<table>
+  <thead>
+    <td>ID</td>
+    <td>Art</td>
+    <td>Antall bein</td>
+    <td>Sort</td>
+  </thead>
+  <tbody>
+    {% for dyr in dyrene %}
+    <tr>
+      <td>{{dyr.id}}</td>
+      <td>{{dyr.art}}</td>
+      <td>{{dyr.bein}}</td>
+      <td>{{dyr.type}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
