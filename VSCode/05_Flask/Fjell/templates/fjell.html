@@ -1,0 +1,20 @@
+{% extends "layout.html" %} {% block content %}
+<table>
+  <thead>
+    <td>ID</td>
+    <td><a href="/fjell/navn">Navn</a></td>
+    <td><a href="/fjell/moh">Moh</a></td>
+    <td>Kommune</td>
+  </thead>
+  <tbody>
+    {% for fjell in fjellene %}
+    <tr>
+      <td>{{fjell.id}}</td>
+      <td>{{fjell.navn}}</td>
+      <td>{{fjell.moh}}</td>
+      <td>{{fjell.kommune}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
