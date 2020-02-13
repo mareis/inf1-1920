@@ -1,19 +1,20 @@
 from flask import Flask
 from flask import render_template
 import time
+from datetime import datetime
 
 app = Flask(__name__)
-
-klokke = time.strftime('%A %B, %d %Y %H:%M:%S')
-
-tid = time.strftime('%S')
-vinterferie = 1233434
-#nedtelling = vinterferie - int(tid)
 
 
 @app.route('/')
 def nedtelling():
-    return render_template("index.html", klokke=klokke, tid=tid, nedtelling=nedtelling)
+    FMT = '%d %H:%M:%S'  # formatet på tiden
+    vinterferie = '14 13:25:00'  # Når vinterferien starter
+    klokke = time.strftime(FMT)  # Klokkeslett nå
+    nedtelling = datetime.strptime(
+        vinterferie, FMT) - datetime.strptime(klokke, FMT)
+
+    return render_template("index.html", klokke=nedtelling)
 
 
 app.run(debug=True)
