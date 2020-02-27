@@ -1,0 +1,15 @@
+{% extends "layout.html" %} {% block content %}
+
+<div class="row">
+  {% for artikkel in artikler %}
+  <a href="/artikkel/{{ artikkel.id }}">
+    <div class="col s12 m6 l4">
+      <div class="card medium hoverable">
+        <h5>{{ artikkel.overskrift }}</h5>
+        <img src="{{ artikkel.bilde }}" alt="" width="100%" />
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}
